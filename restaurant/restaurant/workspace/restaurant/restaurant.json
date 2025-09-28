@@ -1,0 +1,266 @@
+{
+  "name": "restaurant",
+  "doctype": "Workspace",
+  "module": "Restaurant",
+  "title": "Restaurant",
+  "public": 1,
+  "content": "[{\"id\":\"head1\",\"type\":\"header\",\"data\":{\"text\":\"<span class='h4'>Restaurant</span>\",\"col\":12}},{\"id\":\"card1\",\"type\":\"card\",\"data\":{\"card_name\":\"Kitchen\",\"col\":6}},{\"id\":\"card2\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales\",\"col\":6}},{\"id\":\"card3\",\"type\":\"card\",\"data\":{\"card_name\":\"Buying\",\"col\":6}},{\"id\":\"card4\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock\",\"col\":6}},{\"id\":\"card5\",\"type\":\"card\",\"data\":{\"card_name\":\"Data & Settings\",\"col\":6}},{\"id\":\"card6\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Masters\",\"col\":6}},{\"id\":\"card7\",\"type\":\"card\",\"data\":{\"card_name\":\"Selling\",\"col\":6}},{\"id\":\"card8\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":6}}]",
+  "links": [
+    {
+      "type": "Card Break",
+      "label": "Kitchen",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "kot",
+      "link_to": "Kitchen Order Ticket",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "BOM",
+      "link_to": "BOM",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Card Break",
+      "label": "Sales",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "point-of-sale",
+      "link_to": "point-of-sale",
+      "link_type": "Page"
+    },
+    {
+      "type": "Link",
+      "label": "POS Profile",
+      "link_to": "POS Profile",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "POS Opening Entry",
+      "link_to": "POS Opening Entry",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "POS Closing Entry",
+      "link_to": "POS Closing Entry",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Card Break",
+      "label": "Buying",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Purchase Invoice",
+      "link_to": "Purchase Invoice",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Material Request",
+      "link_to": "Material Request",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Items To Be Requested",
+      "link_to": "Items To Be Requested",
+      "link_type": "Report"
+    },
+    {
+      "type": "Link",
+      "label": "Supplier",
+      "link_to": "Supplier",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Card Break",
+      "label": "Stock",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Item",
+      "link_to": "Item",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Item Group",
+      "link_to": "Item Group",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Warehouse",
+      "link_to": "Warehouse",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "UOM",
+      "link_to": "UOM",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "UOM Conversion Factor",
+      "link_to": "UOM Conversion Factor",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Stock Reconciliation",
+      "link_to": "Stock Reconciliation",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Card Break",
+      "label": "Data & Settings",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Data Import",
+      "link_to": "Data Import",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Import Supplier Invoice",
+      "link_to": "Import Supplier Invoice",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Opening Invoice Creation Tool",
+      "link_to": "Opening Invoice Creation Tool",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Letter Head",
+      "link_to": "Letter Head",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "User",
+      "link_to": "User",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "User Permission",
+      "link_to": "User Permission",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Card Break",
+      "label": "Reports & Masters",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Company",
+      "link_to": "Company",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Customer",
+      "link_to": "Customer",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Supplier",
+      "link_to": "Supplier",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "User",
+      "link_to": "User",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "User Permission",
+      "link_to": "User Permission",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Card Break",
+      "label": "Selling",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Sales Invoice",
+      "link_to": "Sales Invoice",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Item Price",
+      "link_to": "Item Price",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Price List",
+      "link_to": "Price List",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Sales Person",
+      "link_to": "Sales Person",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Loyalty Program",
+      "link_to": "Loyalty Program",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Loyalty Point Entry",
+      "link_to": "Loyalty Point Entry",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Card Break",
+      "label": "Reports",
+      "link_type": "DocType"
+    },
+    {
+      "type": "Link",
+      "label": "Item Prices",
+      "link_to": "Item Prices",
+      "link_type": "Report"
+    },
+    {
+      "type": "Link",
+      "label": "Item Shortage Report",
+      "link_to": "Item Shortage Report",
+      "link_type": "Report"
+    },
+    {
+      "type": "Link",
+      "label": "Customer Acquisition and Loyalty",
+      "link_to": "Customer Acquisition and Loyalty",
+      "link_type": "Report"
+    }
+  ]
+}

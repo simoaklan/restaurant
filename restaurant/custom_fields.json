@@ -1,0 +1,10 @@
+[
+    {
+        "fieldname": "sales_invoice",
+        "label": "Sales Invoice",
+        "fieldtype": "Link",
+        "options": "Sales Invoice",
+        "parent": "Work Order",
+        "insert_after": "sales_order"
+    }
+]

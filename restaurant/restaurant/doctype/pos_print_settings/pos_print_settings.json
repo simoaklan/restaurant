@@ -1,0 +1,27 @@
+ {
+  "doctype": "DocType",
+  "name": "POS Print Settings",
+  "module": "Restaurant",
+  "custom": 1,
+  "issingle": 1,
+  "fields": [
+    {
+      "fieldname": "print_format",
+      "label": "Print Format",
+      "fieldtype": "Link",
+      "options": "Print Format",
+      "reqd": 1,
+      "get_query": {
+        "filters": {
+          "doc_type": "POS Invoice"
+        }
+      }
+    },
+    {
+      "fieldname": "rules",
+      "label": "Print Rules",
+      "fieldtype": "Table",
+      "options": "POS Print Rule"
+    }
+  ]
+}

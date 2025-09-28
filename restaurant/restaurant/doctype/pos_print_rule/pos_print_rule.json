@@ -1,0 +1,52 @@
+ {
+  "doctype": "DocType",
+  "name": "POS Print Rule",
+  "module": "Restaurant",
+  "custom": 1,
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "print_type",
+      "label": "Print Type",
+      "fieldtype": "Select",
+      "options": "Full Invoice\nBy Item Group",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "item_group",
+      "label": "Item Group",
+      "fieldtype": "Link",
+      "options": "Item Group",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "printer_name",
+      "label": "Printer Name",
+      "fieldtype": "Data",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "print_price",
+      "label": "Print Price",
+      "fieldtype": "Check",
+      "default": "1",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "custom_title",
+      "label": "Custom Title",
+      "fieldtype": "Data",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "do_print",
+      "label": "Enable Print",
+      "fieldtype": "Check",
+      "default": 1,
+      "in_list_view": 1
+    }
+  ]
+}
