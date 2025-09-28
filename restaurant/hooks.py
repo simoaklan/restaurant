@@ -22,3 +22,6 @@ doc_events = {
     }
 }
 
+page_js = {
+    "point-of-sale": "public/js/custom_pos.js"
+}
