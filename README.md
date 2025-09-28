@@ -1,6 +1,6 @@
-## Secretaria
+## Restaurant
 
-for secreteria
+Restaurant POS
 
 #### License
 
